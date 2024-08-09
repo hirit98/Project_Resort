@@ -1,0 +1,89 @@
+.site_map-main {
+	background: url("../../img/sitemap/sitemap_bg.jpg") no-repeat center
+		center fixed;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 110vh;
+}
+
+.site_map-container {
+	width: 1080px;
+	margin: 0 auto;
+	height: 885px;
+	background-color: rgba(255, 255, 255, 0.9);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	margin-top: 120px;
+}
+
+.top-title {
+	text-align: center;
+	/* margin-top: 100px; */
+	padding: 20px 10px 15px 10px;
+}
+
+.top-title .sub-title {
+	font-weight: 300;
+	font-size: 16px;
+	color: #B87333;
+	letter-spacing: 8px;
+	margin-bottom: 0;
+}
+
+.top-title .h2 {
+	margin-top: 3px;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.site_map-container .line {
+	border: 0;
+	width: 1080px;
+	height: 1px;
+	background: #444;
+}
+
+.site_map-content {
+	backdrop-filter: blur(5px);
+}
+
+.sitemap_list {
+	margin-top: 50px;
+}
+
+.sitemap_list>li {
+	float: left;
+	margin-left: 120px;
+	margin-bottom: 80px;
+	width: 200px;
+}
+
+.sitemap_list>li dl dt {
+	font-size: 20px;
+	font-weight: 600;
+	border-bottom: 2px solid #000;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+}
+
+.sitemap_list>li dl dd {
+	border-bottom: 1px solid #444;
+}
+
+.sitemap_list>li dl dd a {
+	line-height: 50px;
+	font-size: 16px;
+	color: #444;
+}
+
+.sitemap_list>li dl dd a:hover {
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+	.site_map-container {
+		margin-top: 55px;
+	}
+}

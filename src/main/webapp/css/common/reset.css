@@ -1,0 +1,77 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-user-select: none; /* Safari 및 이전 버전의 Chrome 및 Firefox */
+	-moz-user-select: none; /* 이전 버전의 Firefox */
+	-ms-user-select: none; /* IE 10 및 이상 */
+	user-select: none; /* 모든 표준 브라우저 */
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	background-color: #f7f7f7;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	-webkit-user-select: none;
+	/* Safari 및 이전 버전의 Chrome 및 Firefox */
+	-moz-user-select: none;
+	/* 이전 버전의 Firefox */
+	-ms-user-select: none;
+	/* IE 10 및 이상 */
+	user-select: none;
+	/* 모든 표준 브라우저 */
+	position: relative;
+	scroll-behavior: smooth;
+}
+
+body, button, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5,
+	iframe, img, li, ol, p, ul {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	list-style: none;
+	vertical-align: top;
+}
+
+button, input, select {
+	vertical-align: middle;
+}
+
+button, label {
+	cursor: pointer;
+}
+
+button {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+li {
+	list-style: none;
+}
+
+img, a, div {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    -user-drag: none;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	unicode-bidi: isolate;
+}

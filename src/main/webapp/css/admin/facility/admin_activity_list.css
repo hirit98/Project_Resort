@@ -1,0 +1,132 @@
+.admin_activity_list-content {
+	width: 1240px;
+	height: 880px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin_activity_list-content h1 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.admin_activity_list-content h1>img {
+	width: 35px;
+	height: 35px;
+}
+
+.admin_activity_list-content h1>img:hover {
+	cursor: pointer;
+}
+
+.admin_activity_list-content .tool-tip {
+	font-size: 14px;
+	color: #444;
+}
+
+.type_search_box {
+	display: flex;
+	width: 470px;
+	float: right;
+}
+
+.type_search_box .activity_type_link {
+	width: 150px;
+	height: 20px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+.type_search_box .type_insert_link {
+	text-align: right;
+}
+
+.type_search_box .type_insert_link:hover {
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+.activity_info_form {
+	width: 330px;
+	background: #eee;
+	border: 1px solid #444;
+	border-radius: 5px;
+	padding: 15px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.activity_info_form .form_title {
+	font-weight: 800;
+	color: #000;
+}
+
+.activity_info_form .submit_btn {
+	float: right;
+	background-color: #704309;
+	border-radius: 10px;
+	color: #fff;
+	padding: 5px;
+	margin-top: -31px;
+}
+
+.activity_info_form .submit_btn:hover {
+	cursor: pointer;
+	background-color: #9c5c09;
+	transition: ease-in-out 0.3s;
+	color: #fff;
+}
+
+.activity_info_form select {
+	width: 120px;
+	padding: 5px;
+}
+
+.activity_list_box {
+	height: 680px;
+}
+
+.activity_list_box table {
+	width: 1200px;
+	text-align: center;
+	border: 1px solid #444;
+	border-spacing: 0;
+	text-align: center;
+}
+
+.activity_list_box table th {
+	background: #ccc;
+	border-bottom: 1px solid #444;
+}
+
+.activity_list_box table tr, td {
+	border-bottom: 1px solid #ddd;
+}
+
+.activity_list_box table  td {
+	font-size: 18px;
+}
+
+.activity_list_box table td>a {
+	text-decoration: underline;
+}
+
+.activity_list_box table td>a:hover {
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.activity_list_box table .insert_btn {
+	padding: 5px 10px;
+}
+
+.activity_list_box table .insert_btn:hover {
+	cursor: pointer;
+}
+
+.activity_list_box .table-row {
+	height: 185px;
+}

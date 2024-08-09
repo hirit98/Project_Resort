@@ -1,0 +1,146 @@
+/* 2차 메뉴 가두기 */
+.side-bar>ul>li {
+	position: relative;
+}
+
+/* 2차 메뉴 숨기기 */
+.side-bar>ul ul {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 100%;
+	background-color: #f5f5f5;
+}
+
+.admin_container {
+	background-color: #ddd;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.side-bar ul>li>a {
+	display: block;
+	color: #f5f5f5;
+	font-size: 1.2rem;
+	padding: 10px 20px;
+	white-space: nowrap;
+}
+
+.side-bar {
+	position: fixed;
+	min-height: 100vh;
+	width: 100px;
+	background-color: #444;
+	overflow: hidden; /* 넘치는 메뉴 요소 숨기기 */
+	transition: 0.5s;
+}
+
+.side-bar ul ul>li>a {
+	color: #000;
+}
+
+.side-bar ul ul>li>a:hover {
+	background-color: #444; /* 보조 강조색 */
+	color: #f5f5f5;
+}
+
+/* 마우스 인식 시 너비 확장 */
+.side-bar:hover {
+	width: 270px;
+}
+/* 2차 메뉴 공간 제한 해제 */
+.side-bar:hover {
+	width: 270px;
+	overflow: visible;
+}
+
+.side-bar:hover .side-bar_logo img {
+	width: 270px;
+	height: 250px;
+	transition: 0.5s;
+}
+
+.side-bar_logo img {
+	width: 100px;
+	height: 100px;
+}
+
+.side-bar_logo img:hover {
+	cursor: pointer;
+}
+
+.side-bar ul>li:hover>a {
+	background-color: #333;
+	color: #fff;
+}
+
+.side-bar>ul>li:hover>ul {
+	display: block;
+}
+
+/* 사이드바가 늘어나기 전 메뉴 노출 차단 */
+.side-bar>ul>li>a>span:last-child {
+	opacity: 0;
+	transition: 0.5s 0.1s;
+}
+
+.side-bar:hover>ul>li>a>span:last-child {
+	opacity: 1;
+}
+
+.side-bar>ul>li>a>span:first-child {
+	position: relative;
+	display: inline-block;
+	border: 5px solid white;
+	background: white;
+	border-radius: 50%;
+	width: 3rem;
+	height: 3rem;
+}
+
+.side-bar>ul>li>a>span>i {
+	position: relative; /* 부모 요소에 위치 지정 */
+	display: inline-block; /* 필요한 경우 추가 */
+	width: 85%; /* 필요에 따라 조정 */
+	height: 100%; /* 필요에 따라 조정 */
+}
+
+.side-bar>ul>li>a>span {
+	vertical-align: middle;
+}
+
+.side-bar>ul>li>a>span>i>img {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 20px;
+	transform: translate(-65%, -60%);
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.admin_main_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1400px; /* 1400px  73%여기 수정 */
+	height: 953px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.admin_main_container h1 {
+	margin-top: 21.44px;
+	font-size: 32px;
+}
+
+.admin_main_container h2 {
+	margin: 20px 0 20px 0;
+	font-size: 24px;
+}
+
+.admin_main_container p {
+	margin: 16px 0 16px 0;
+	font-size: 16px;
+}

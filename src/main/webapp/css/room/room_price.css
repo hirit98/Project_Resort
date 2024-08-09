@@ -1,0 +1,51 @@
+.price_table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	text-indent: 0;
+	border-top: 1px solid #333;
+}
+
+.price_table tr th, .price_table tr td {
+	padding: 11px 15px;
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+}
+
+.price_table tr th {
+	background: #bfbcbc;
+	font-weight: 500;
+	color: #555;
+}
+
+.price_table tbody tr th {
+	background: #f8f8f8;
+	font-weight: 400;
+}
+
+.price_table tr th.first, .price_table tr td.first {
+	border-left: 0;
+}
+
+.main_price {
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+
+.price_cont {
+	margin: 0 auto; /* 가운데 정렬을 위한 마진 설정 */
+	width: 80%; /* 테이블의 너비 설정 */
+}
+
+.price_cont>h4 {
+	display: inline-block;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	letter-spacing: -0.025em;
+	line-height: 1.5;
+	font-size: 20px;
+	color: #333333;
+	font-family: 'Noto Sans KR', sans-serif;
+}

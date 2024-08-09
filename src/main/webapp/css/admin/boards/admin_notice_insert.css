@@ -1,0 +1,76 @@
+.admin_notice_insert-content {
+	height: 880px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin_notice_insert-content h1 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.admin_notice_insert-content h1>img {
+	width: 35px;
+	height: 35px;
+}
+
+.admin_notice_insert-content h1>img:hover {
+	cursor: pointer;
+}
+
+.admin_notice_insert_cont {
+	width: 1240px;
+	height: 690px;
+	text-align: left;
+	padding: 10px;
+	border: 1px solid #444;
+}
+
+.admin_notice_insert_cont p {
+	padding: 10px;
+	background: #ccc;
+}
+
+.admin_notice_insert_cont input[type='text'] {
+	padding: 3px;
+	border: none;
+	width: 1197px;
+}
+
+.admin_notice_insert_cont textarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	resize: none;
+	width: 1210px;
+	height: 350px;
+}
+
+.admin_notice_insert-content .admin_content_btn_box {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.admin_notice_insert-content .admin_content_btn_box .cancle_btn, 
+.admin_notice_insert-content .admin_content_btn_box .insert_btn {
+	padding: 10px;
+	width: 80px;
+	border-radius: 10px;
+}
+
+.admin_notice_insert-content .admin_content_btn_box .cancle_btn { 
+	background: #fefefe;
+}
+
+.admin_notice_insert-content .admin_content_btn_box .insert_btn { 
+	background: #ccc;
+}
+
+.admin_notice_insert-content .admin_content_btn_box .cancle_btn:hover,
+.admin_notice_insert-content .admin_content_btn_box .insert_btn:hover { 
+	background: #444;
+	cursor: pointer;
+	color: #fff;
+}

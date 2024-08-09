@@ -1,0 +1,111 @@
+.admin_reservation_list-content {
+	height: 880px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin_reservation_list-content h1 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.admin_reservation_list-content h1>img {
+	width: 35px;
+	height: 35px;
+}
+
+.admin_reservation_list-content h1>img:hover {
+	cursor: pointer;
+}
+
+.admin_reservation_list-content .tool-tip {
+	font-size: 14px;
+	color: #444;
+}
+
+.reservation_search_box {
+	width: 1240px;
+}
+
+.reservation_form {
+	background: #eee;
+	border: 1px solid #444;
+	border-radius: 5px;
+	padding: 15px;
+	line-height: 30px;
+}
+
+.reservation_form .form_title {
+	font-weight: 800;
+	color: #000;
+}
+
+.reservation_form .input-date {
+	width: 120px;
+	height: 20px;
+	padding: 0 10px;
+	outline: none;
+	border: none;
+}
+
+.reservation_form .input-field {
+	outline: none;
+	height: 20px;
+	border: none;
+}
+
+.reservation_form .input-keyword {
+	height: 20px;
+	outline: none;
+	border: none; width : 180px;
+	padding-left: 5px;
+	width: 180px;
+}
+
+.reservation_form .input-radio {
+	width: 13px;
+	height: 13px;
+	min-width: 13px;
+	border: none;
+	margin: 0;
+}
+
+.reservation_form .submit_btn {
+	width: 80px;
+	height: 72px;
+	float: right;
+	background-color: #704309;
+	border-radius: 10px;
+	color: #fff;
+	padding: 25px;
+	margin-top: -85px;
+}
+
+.reservation_form .submit_btn:hover {
+	cursor: pointer;
+	background-color: #9c5c09;
+	transition: ease-in-out 0.3s;
+	color: #fff;
+}
+
+.reservation_list_box {
+	height: 600px;
+}
+
+.reservation_list_box table {
+	width: 1240px;
+	text-align: center;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.reservation_list_box tr, th, td {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.reservation_list_box .table-row {
+	height: 55px;
+}

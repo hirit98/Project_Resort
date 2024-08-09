@@ -1,0 +1,90 @@
+#activity_container2 h2,
+#activity_container2 h3{
+    font-size: 18px;
+}
+.activity_title2 {
+    height: 710px;
+    background: url(../../img/section2/activity2-bg.png) no-repeat top 40px center/cover;
+    background-attachment: fixed;
+}
+.activity_info2 {
+    width: 1000px;
+    height: auto;
+    margin: 50px auto 200px auto;
+    text-align: left;
+    font-size: 12px;
+}
+
+.activity_info2 h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -415px;
+    text-shadow: 0.5px 2px 5px #000;
+}
+
+.fee_information-menu2 {
+    margin-top: 300px;
+}
+
+.title_tab2 {
+    width: 1000px;
+    height: 70px;
+}
+
+.tab-wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+    background-color: rgb(197, 197, 197);
+}
+
+.tab-wrapper2 div {
+    width: 50%;
+    height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.info2-1 {
+    margin-top: 50px;
+}
+
+.info2-2 {
+    margin-top: 90px;
+}
+
+.info2-3 {
+    margin: 50px 0;
+}
+
+.center2 table,
+.activity_fee2 table{
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.center2 th,
+.center2 td,
+.activity_fee2 th,
+.activity_fee2 td{
+    /* border-bottom: 1px double #000;  */
+    padding: 8px; 
+    text-align: center; 
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.center2 th,
+.activity_fee2 th{
+    background-color: #f2f2f2; 
+}
+.info2-1 p,
+.info2-2 p,
+.info2-3 p,
+.info2-4 p {
+    font-size: 15px;
+}
+.listContent2{
+    font-size: 13px;
+}

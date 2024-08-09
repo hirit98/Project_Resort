@@ -1,0 +1,93 @@
+/* 'abouthotel' 클래스의 스타일 */
+.abouthotel {
+	width: 100%;
+	background: url("../../img/aboutus/aboutus-bg.jpg") no-repeat center
+		center/auto fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+.abouthotel * {
+	padding-top: 120px;
+	color: #f2f2f3;
+	text-shadow: 0.5px 2px 5px #000;
+}
+
+/* 각 섹션의 타이틀 스타일 */
+.abouthotel h1 {
+	font-family: "Merriweather", serif;
+	font-size: 90px;
+}
+
+.abouthotel h3 {
+	font-size: 30px;
+}
+
+.abouthotel p {
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.aboutus_title {
+	opacity: 1;
+	transform: translateX(-100%);
+	transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.aboutus_title.visible {
+	opacity: 1;
+	transform: translateX(0);
+}
+/* 'aboutroom', 'aboutfood', 'aboutdrink', 'aboutactivity' 클래스의 스타일 */
+.aboutroom, .aboutfood, .aboutdrink, .aboutactivity {
+	display: flex;
+	align-items: center;
+	padding: 0;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.aboutroom.show, .aboutfood.show, .aboutdrink.show, .aboutactivity.show
+	{
+	opacity: 1;
+	transform: translateY(0);
+}
+/* 스크롤 애니메이션에 의해 요소가 나타날 때 적용되는 스타일 */
+.aboutfood, .aboutdrink, .aboutactivity {
+	margin: -25px auto;
+}
+
+/* 이미지 컨테이너 스타일 */
+.aboutroom div:nth-child(1), .aboutfood div:nth-child(1), .aboutdrink div:nth-child(1),
+	.aboutactivity div:nth-child(1) {
+	flex: 1;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+/* 이미지 스타일 */
+.aboutroom img, .aboutfood img, .aboutdrink img, .aboutactivity img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* 텍스트 컨테이너 스타일 */
+.aboutroom div:nth-child(2), .aboutfood div:nth-child(2), .aboutdrink div:nth-child(2),
+	.aboutactivity div:nth-child(2) {
+	flex: 1;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+/* 마지막 섹션 스타일 */
+.end {
+	text-align: center;
+	padding: 80px 0;
+	font-weight: 600;
+	font-family: "Merriweather", serif;
+	font-size: 35px;
+	color: #333;
+}

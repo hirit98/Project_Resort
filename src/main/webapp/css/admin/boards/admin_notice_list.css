@@ -1,0 +1,38 @@
+.admin_user_list-content {
+	height: 880px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin_user_list-content h1 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.admin_user_list-content h1>img {
+	width: 35px;
+	height: 35px;
+}
+
+.admin_user_list-content h1>img:hover {
+	cursor: pointer;
+}
+
+.notice_list_table table{
+	width: 1240px;
+	text-align: center;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+.notice_list_table .table-row {
+	height: 60px;
+}
+
+.notice_list_table .table-row:hover,
+.main_notice .table-row:hover {
+	background: #f3f3f3;
+	cursor: pointer;
+}

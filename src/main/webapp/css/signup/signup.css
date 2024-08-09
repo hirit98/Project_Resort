@@ -1,0 +1,115 @@
+.mem_join {
+	background: url("../../img/join-bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; /* 뷰포트 높이만큼 로그인 컨테이너 높이 설정 */
+}
+
+.join {
+	width: 600px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 50px 50px 50px 50px;
+	border-radius: 5px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+
+.join h2 {
+	color: #333;
+	font-size: 35px;
+}
+
+.join form {
+	margin-top: 20px;
+}
+
+.join table {
+	width: 100%;
+	border-collapse: collapse;
+	text-decoration: none;
+}
+
+.join tr, td, th {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.id_error, .email_error {
+	float: left;
+	padding-top: 11px;
+	margin-left: 5px;
+}
+
+.no_pass {
+	float: left;
+	margin: 0 auto;
+}
+
+.join th {
+	padding: 0px;
+	color: #333;
+}
+
+.join #user_id, .join #pwd, .join #pwd_doublecheck, .join #user_email,
+	#signup_name {
+	width: 100%;
+	padding: 15px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	outline: 0;
+}
+
+#phone1 {
+	float: left;
+}
+
+#phone3 {
+	float: right;
+}
+
+#phone1, #phone2, #phone3 {
+	width: 32.5%;
+	padding: 15px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	outline: 0;
+}
+
+.join .id_check, .join .email_check {
+	float: left;
+}
+
+.join input[type="submit"], .join input[type="reset"], .join .id_check,
+	.email_check {
+	width: 120px; /* Adjust the width as needed */
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.join input[type="submit"], .join input[type="reset"] {
+	background: url(../../img/bg_slash_w_10.png) #333;
+	color: #fff;
+}
+
+.join .id_check, .join .email_check {
+	background: url(../../img/bg_slash_w_10.png) #333;
+	color: #fff;
+}
+
+.join_on {
+	padding-top: 30px;
+}
+
+.join input[type="submit"]:hover, .join input[type="reset"]:hover {
+	background-color: #676767;
+}

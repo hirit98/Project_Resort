@@ -1,0 +1,92 @@
+.admin_event_modify-content {
+	height: 880px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin_event_modify-content h1 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.admin_event_modify-content h1>img {
+	width: 35px;
+	height: 35px;
+}
+
+.admin_event_modify-content h1>img:hover {
+	cursor: pointer;
+}
+
+.admin_event_modify_cont {
+	width: 1240px;
+	height: 690px;
+	text-align: left;
+	padding: 10px;
+	border: 1px solid #444;
+}
+
+.admin_event_modify_cont p {
+	padding: 10px;
+	background: #ccc;
+}
+
+.admin_event_modify_cont input[type='text'] {
+	border: none;
+    width: 1200px;
+    height: 23px;
+    padding-left: 5px;
+	outline: none;
+	border: 1px solid #444;
+}
+
+.admin_event_modify_cont textarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	resize: none;
+	width: 1210px;
+	height: 350px;
+	outline: none;
+	border: 1px solid #444;
+}
+
+.admin_event_modify-content .admin_content_btn_box {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.admin_event_modify_cont .admin_modify_file_before {
+	display: inline-block;
+	width: 600px;
+}
+
+.admin_event_modify_cont .admin_modify_file_after {
+	margin-top: 1px;
+	display: inline-block;
+	width: 600px;
+}
+
+.admin_event_modify-content .admin_content_btn_box .modify_btn, 
+.admin_event_modify-content .admin_content_btn_box .delete_btn {
+	padding: 10px;
+	width: 80px;
+	border-radius: 10px;
+}
+
+.admin_event_modify-content .admin_content_btn_box .modify_btn { 
+	background: #fefefe;
+}
+
+.admin_event_modify-content .admin_content_btn_box .delete_btn { 
+	background: #ccc;
+}
+
+.admin_event_modify-content .admin_content_btn_box .modify_btn:hover,
+.admin_event_modify-content .admin_content_btn_box .delete_btn:hover { 
+	background: #444;
+	cursor: pointer;
+	color: #fff;
+}

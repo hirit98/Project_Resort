@@ -1,0 +1,62 @@
+.activity_title3 {
+    height: 710px;
+    background: url(../../img/section2/activity3-bg.png) no-repeat top 40px center/cover;
+    background-attachment: fixed;
+}
+#activity_container3 h2, #activity_container3 h3 {
+    font-size: 18px;
+}
+.activity_info3 {
+    width: 1000px;
+    height: auto;
+    margin: 50px auto;
+    text-align: left;
+    font-size: 12px;
+}
+
+.activity_info3 h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -415px;
+    text-shadow: 0.5px 2px 5px #000;
+}
+
+.fee_information-menu3 {
+    margin-top: 300px;
+}
+
+.title_tab3 {
+    width: 1000px;
+    height: 70px;
+}
+
+.tab-wrapper3 {
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+    background-color: #e0e0e0;
+}
+
+.tab-wrapper3 div {
+    width: 50%;
+    height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.info3-1 {
+    margin-top: 50px;
+}
+.info3-1 p,
+.info3-2 tbody {
+    font-size: 15px;
+}
+
+.info3-2 {
+    margin-top: 90px;
+}
+
+.info3-2 table {
+    margin-bottom: 300px;
+}

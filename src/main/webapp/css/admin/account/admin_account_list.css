@@ -1,0 +1,137 @@
+.admin_account_list-content {
+	width: 1240px;
+	height: 880px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin_account_list-content h1 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.admin_account_list-content h1>img {
+	width: 35px;
+	height: 35px;
+}
+
+.admin_account_list-content h1>img:hover {
+	cursor: pointer;
+}
+
+.admin_account_list-content .tool-tip {
+	font-size: 14px;
+	color: #444;
+}
+
+.admin_account_search_box {
+	display: flex;
+	width: 590px;
+	float: right;
+}
+
+.admin_account_search_box .admin_account_insert {
+	width: 120px;
+    height: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.admin_account_search_box .type_insert_link {
+	text-align: right;
+}
+
+.admin_account_search_box .type_insert_link:hover {
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+.account_list_form {
+	width: 465px;
+	background: #eee;
+	border: 1px solid #444;
+	border-radius: 5px;
+	padding: 15px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.account_list_form .form_title {
+	font-weight: 800;
+	color: #000;
+}
+
+.account_list_form .submit_btn {
+	float: right;
+	background-color: #704309;
+	border-radius: 10px;
+	color: #fff;
+	padding: 5px;
+	margin-top: -31px;
+}
+
+.account_list_form .submit_btn:hover {
+	cursor: pointer;
+	background-color: #9c5c09;
+	transition: ease-in-out 0.3s;
+	color: #fff;
+}
+
+.account_list_form select {
+	width: 120px;
+	padding: 5px;
+}
+
+.account_list_form input[type='text'] {
+	width: 170px;
+	padding: 5px;
+}
+
+.admin_account_list_box {
+	height: 700px;
+}
+
+.admin_account_list_box table {
+	width: 1200px;
+	text-align: center;
+	border: 1px solid #444;
+	border-spacing: 0;
+	text-align: center;
+}
+
+.admin_account_list_box table th{
+	background: #ccc;
+	border-bottom: 1px solid #444;
+}
+
+.admin_account_list_box table tr, td {
+	border-bottom: 1px solid #ddd;
+}
+
+.admin_account_list_box table  td {
+	font-size: 18px;
+}
+
+.admin_account_list_box table td > a {
+	text-decoration: underline;
+}
+
+.admin_account_list_box table td > a:hover {
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.admin_account_list_box .table-row {
+	height: 111px;
+}
+
+.admin_account_list_box table .insert_btn {
+	padding: 5px 10px;
+}
+
+.admin_account_list_box table .insert_btn:hover {
+	cursor: pointer;
+}

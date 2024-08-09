@@ -1,0 +1,123 @@
+/* 메인 타이틀 이미지 설정 */
+.activity_title1{
+    height: 710px;
+    background: url(../../img/section2/activity1-3.png) no-repeat top 40px center/cover;
+	background-attachment: fixed;
+}
+
+/* 액티비티 정보 설정 */
+.activity_info1{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+
+.activity_info1 h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -400px;
+    text-shadow: 0.5px 2px 5px #000;
+}
+
+.activity_info1 li{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0.5px 2px 5px #000;
+}
+
+.activity_info1 ul{
+    margin-top: 400px;
+    text-align: center;
+}
+
+.activity_info1 p{
+    text-align: center;
+}
+
+.activity_info1 p:nth-child(1){
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* 액티비티 메뉴 설정 */
+.activity_menu1{  
+    margin: 300px auto;
+    width: 1000px;
+    height: auto;
+}
+
+.title_tab1{
+    width: 1000px;
+    height: auto;
+}
+
+/* 탭 스타일 설정 */
+.tab-wrapper1{
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+}
+
+.tab-wrapper1 div{
+    width: 33%;
+    height: 70px;
+    text-align: center;   
+}
+
+.tab-wrapper1 div:nth-child(1),
+.tab-wrapper1 div:nth-child(2),
+.tab-wrapper1 div:nth-child(3){
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+.activity_menu1 h3{
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* 정보 섹션 마진 설정 */
+.infomation1-1, .infomation1-2{
+    margin: 30px 0;
+}
+
+/* 가이드 섹션 스타일 설정 */
+.guide1 div{
+    display: flex;
+    justify-content: space-between;
+    margin: 170px auto;
+}
+
+.guide1 div img{
+    width: 60%;
+    height: 400px;
+    padding-right: 25px;
+    border-right: 1px solid #838383;
+}
+
+.guide1 div ul{
+    width: 40%;
+    height: 400px;
+    padding-left: 25px;
+}
+
+.guide1 div ul > li:nth-child(1){
+    font-size: 20px;
+}
+
+/* 스파, 실내 가이드, 워터파크 가이드 스타일 */
+.spa_guide1, .indoor_guide1, .waterpark_guide1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.spa_guide1 ul, .indoor_guide1 ul, .waterpark_guide1 ul{
+    padding: 20px;
+}
+
+.indoor_guide1 img, .waterpark_guide1 img{
+    padding-right: 20px;
+}

@@ -1,0 +1,41 @@
+.pagination {
+	text-align: center;
+	padding: 10px 0 0 0;
+	margin-bottom: 40px;
+}
+
+.pagination button {
+	padding: 10px 20px;
+	margin: 0 5px;
+	background-color: #f7f7f7;
+	color: #444;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.pagination button:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #000;
+	font-weight: 700;
+}
+
+.pagination .page-numbers {
+	display: inline-block;
+}
+
+.pagination .page-numbers .page-btn {
+	background-color: #f7f7f7;
+	color: #444;
+}
+
+.pagination .page-numbers .active-btn {
+	color: #444;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.pagination .insert-btn {
+	float: right;
+}

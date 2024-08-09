@@ -1,0 +1,69 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap')
+	;
+
+#faq_container {
+	margin: 0 auto;
+}
+
+.top h1 {
+	text-align: center;
+	padding-top: 170px;
+	font-size: 40px;
+	line-height: 60px;
+	margin-bottom: 30px;
+	color: #f2f2f3;
+	letter-spacing: 10px;
+	font-family: "Merriweather", serif;
+	font-weight: 700;
+	font-style: normal;
+	text-shadow: 0.5px 2px 5px #000;
+}
+
+#faq_container .inner {
+	width: 1200px;
+	margin: 50px auto;
+}
+
+.question {
+	position: relative;
+	padding: 17px 0;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 900;
+	border-bottom: 1px solid #000;
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+.answer {
+	font-family: "Noto Sans KR", sans-serif;
+	display: none;
+	overflow: hidden;
+	font-size: 14px;
+	background-color: #ffffff;
+	padding: 5px 0;
+	/* border: 1px solid #222; */
+}
+
+.answer p {
+	padding: 0 0 0 50px;
+}
+
+.accordion i {
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 100%;
+}
+
+.bg {
+	background: url("../../img/board/board_faq.jpg");
+	height: 400px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}

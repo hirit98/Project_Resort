@@ -1,0 +1,114 @@
+.admin_user_list-content {
+	height: 880px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin_user_list-content h1 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.admin_user_list-content h1>img {
+	width: 35px;
+	height: 35px;
+}
+
+.admin_user_list-content h1>img:hover {
+	cursor: pointer;
+}
+
+.search_box {
+	display: flex;
+	background: #ccc;
+	border: 1px solid #000;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.search_box p {
+	width: 65%;
+	margin-left: 16px;
+}
+
+.search_box .search_form {
+	width: 35%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.search_form {
+	line-height: 53px;
+}
+
+.sch, .sch_ok {
+	border: none;
+}
+
+.sch_1 {
+	width: 70px;
+	height: 43px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.sch {
+	width: 200px;
+	padding: 13px;
+	margin: 5px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.sch_ok {
+	width: 70px;
+	padding: 13px;
+	border-radius: 4px;
+	background-color: #704309;
+	color: #fff;
+	cursor: pointer;
+}
+
+.sch_ok:hover {
+	background-color: #9c5c09;
+	transition: ease-in-out 0.3s;
+	color: #fff;
+}
+
+.user_list_table {
+	height: 640px;
+}
+
+.user_list_table .table-row {
+	height: 60px;
+}
+
+.user_list_table table {
+	width: 1240px;
+	text-align: center;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+.user_list_table-table tr, th, td {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.user_list_table .table-row:hover {
+	background: #f3f3f3;
+}
+
+.user_list_table .res_insert_btn {
+	padding: 3px;
+}
+
+.user_list_table .res_insert_btn:hover {
+	cursor: pointer;
+	background: #444;
+	color: #fff;
+}

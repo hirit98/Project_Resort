@@ -1,0 +1,338 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap')
+	;
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.w-max {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+#section1_2.wide {
+	max-width: 100%;
+}
+
+@media ( min-width : 1280px) {
+	#section1_2 {
+		min-height: calc(100% - 93px);
+	}
+}
+#section1_2_room1{
+	padding-top: 100px;
+}
+
+#section1_2 {
+	width: 100%;
+	max-width: 1920px;
+	margin: auto 0;
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+.title {
+	position: relative;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.title .main_title_room1,
+.title .main_title_room2,
+.title .main_title_room3,
+.title .main_title_room4,
+.title .main_title_room5 {
+	display: inline-block;
+	font-size: 3rem;
+	color: #333;
+	font-weight: normal;
+}
+
+.main_area {
+	max-width: 1920px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.room_view {
+	position: relative;
+	max-width: 1279px;
+	margin: 0 auto;
+}
+
+.detail-area, .room_view, .detail-img-view .slick-prev.slick-arrow {
+	transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+}
+
+.room_view .room-view2 {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.room_view .list .img {
+	display: block;
+	position: relative;
+	padding-bottom: 66.4%;
+}
+
+.room_view .list .img img {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: auto;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+
+.room_view .detail-area {
+	width: 100%;
+	margin-top: -1px;
+}
+
+.room_view .detail-area .desc-wrap {
+	padding: 30px 0;
+}
+
+.room_view .detail-area .desc-wrap .desc-box {
+	position: relative;
+	max-width: 1279px;
+	margin: 0 auto;
+	padding-right: 430px;
+}
+
+.desc-wrap .desc-box .tit {
+	font-size: 32px;
+	color: #333;
+	font-weight: 700;
+	word-break: keep-all;
+	word-wrap: break-word;
+}
+
+.desc-wrap .desc-box .tit .room-name {
+	white-space: nowrap;
+}
+
+.desc-wrap .desc-box .txt {
+	font-size: 17px;
+	line-height: 23px;
+	margin-top: 12px;
+	word-break: keep-all;
+	word-wrap: break-word;
+	color: #333;
+}
+
+.room-infomation {
+	max-width: 1279px;
+	margin: 0 auto;
+}
+
+.blind {
+	position: absolute;
+	left: -99999px;
+	display: block;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	text-indent: -99999px;
+	clip: rect(0, 0, 0, 0);
+}
+
+.tb-responsive {
+	border-top: 1px solid #aaa;
+}
+
+.tb-responsive table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	box-sizing: border-box;
+}
+
+legend, caption {
+	position: absolute;
+	left: -99999px;
+	display: block;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	text-indent: -99999px;
+	clip: rect(0, 0, 0, 0);
+}
+
+.tb-responsive th {
+	background-color: #bfbcbc;
+	text-align: left;
+}
+
+.tb-responsive th, .tb-responsive td {
+	padding: 18px 30px;
+	border-bottom: 1px solid #eee;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+.main_area ~ .content {
+	margin-top: 60px;
+}
+
+.title-sub-area {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+.title-sub-area .sub-title {
+	display: inline-block;
+}
+
+.sub-title {
+	font-size: 30px;
+	color: #333;
+	font-weight: normal;
+}
+
+.amenity-list {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.content .amenity-list .grid-area {
+	display: flex;
+}
+
+.grid-area.gap-4 {
+	width: auto;
+	margin-left: -30px;
+	margin-right: -30px;
+	margin-bottom: 30px;
+}
+
+.content .amenity-list .grid-area li {
+	flex-grow: 1;
+}
+
+.grid-area.gap-4 .colum {
+	padding: 0 30px;
+}
+
+.colum.col-3 {
+	width: 25%;
+}
+
+.grid-area .colum {
+	float: left;
+	word-break: break-word;
+}
+
+.amenity-list li {
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+.title-sub-area {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+.title-sub-area .sub-title {
+	display: inline-block;
+}
+
+.sub-title {
+	font-size: 30px;
+	color: #333;
+	font-weight: normal;
+}
+
+.use-guide-list-type02 {
+	position: relative;
+	margin-top: 2rem;
+}
+
+.text-box {
+	position: relative;
+	width: 100%;
+	background-color: #fbfbfb;
+	padding: 30px;
+	min-height: 84px;
+}
+
+.use-guide-list-type02 .btn {
+	position: absolute;
+	bottom: 50%;
+	right: 40px;
+	margin-bottom: -22px;
+}
+
+.btn-grey {
+	border: 1px solid #666;
+	background: #666;
+	color: #fff;
+}
+
+.btn-md {
+	min-width: 40px;
+	height: 44px;
+	line-height: 44px;
+	padding: 0 20px;
+	font-size: 15px;
+}
+
+.use-guide-list-type02 ~ .faci-list {
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+.faci-list {
+	padding: 25px 30px 25px 40px;
+	border: 1px solid #ddd;
+}
+
+.grid-area-table {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.faci-list li:first-child {
+	padding-left: 0;
+	border-left: 0;
+}
+
+.grid-area-table .colum {
+	display: table-cell;
+	width: 1%;
+	white-space: nowrap;
+}
+
+.faci-list.col4 li .desc {
+	max-width: 200px;
+}
+
+.faci-list li .desc {
+	display: inline-block;
+	white-space: normal;
+	vertical-align: middle;
+	max-width: 500px;
+}
+
+.faci-list li .desc .tit {
+	display: block;
+	font-weight: normal;
+	color: #333;
+}
